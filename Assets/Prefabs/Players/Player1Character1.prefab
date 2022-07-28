@@ -210,6 +210,10 @@ PrefabInstance:
       propertyPath: playerCam
       value: 
       objectReference: {fileID: 7241792624635317627}
+    - target: {fileID: 2901721731378060468, guid: b3706baafc1be6845ae225add3a43bc3, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2956270899612289744, guid: b3706baafc1be6845ae225add3a43bc3, type: 3}
       propertyPath: m_RootOrder
       value: 0

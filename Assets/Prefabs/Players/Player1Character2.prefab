@@ -206,6 +206,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 852462742691696145}
     m_Modifications:
+    - target: {fileID: 9087817145428922658, guid: b1329904fb6145741a53c69acc810964, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9087817145428922661, guid: b1329904fb6145741a53c69acc810964, type: 3}
       propertyPath: playerCam
       value: 

@@ -254,6 +254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1Female3
       objectReference: {fileID: 0}
+    - target: {fileID: 6128068352374277747, guid: 7f758296f448f444a8a91fa10c097e3b, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f758296f448f444a8a91fa10c097e3b, type: 3}
 --- !u!1 &6065107010639742346 stripped
