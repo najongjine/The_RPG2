@@ -43,7 +43,7 @@ public class PlayerMove : MonoBehaviour
 
         // Get mouse position
         pos = Input.mousePosition;
-        //ct.m_FollowOffset = currPos;
+        ct.m_FollowOffset = currPos;
         //ct.m_FollowOffset=new Vector3(currPos.x,currPos.y*3,currPos.z*2);
 
         if (Input.GetMouseButtonDown(0))
@@ -66,7 +66,7 @@ public class PlayerMove : MonoBehaviour
         {
             if (pos.x != 0 || pos.y != 0)
             {
-                //currPos = pos / 200;
+                currPos = pos / 200;
             }
         }
 
