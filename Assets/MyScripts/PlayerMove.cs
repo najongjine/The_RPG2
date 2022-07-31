@@ -20,6 +20,8 @@ public class PlayerMove : MonoBehaviour
     Vector3 pos;
     Vector3 currPos;
 
+    public static bool canMove=true;
+
     private void Awake()
     {
         nav = GetComponent<NavMeshAgent>();
@@ -48,11 +50,15 @@ public class PlayerMove : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit))
+            if (canMove)
             {
-                nav.destination = hit.point;
+                ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out hit))
+                {
+                    nav.destination = hit.point;
+                }
             }
+            
         }
         if (velocitySpeed != 0)
         {
