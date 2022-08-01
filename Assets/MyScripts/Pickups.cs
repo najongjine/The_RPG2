@@ -8,7 +8,10 @@ public class Pickups : MonoBehaviour
     public int number;
 
     public bool redMushRoom = false;
+    public bool purpleMushRoom = false;
+    public bool brownMushRoom = false;
     public bool blueFlower = false;
+    public bool redFlower = false;
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
