@@ -210,10 +210,30 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9087817145428922660, guid: b1329904fb6145741a53c69acc810964, type: 3}
+      propertyPath: m_Height
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9087817145428922660, guid: b1329904fb6145741a53c69acc810964, type: 3}
+      propertyPath: m_Radius
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9087817145428922660, guid: b1329904fb6145741a53c69acc810964, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 60000
+      objectReference: {fileID: 0}
+    - target: {fileID: 9087817145428922660, guid: b1329904fb6145741a53c69acc810964, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9087817145428922661, guid: b1329904fb6145741a53c69acc810964, type: 3}
       propertyPath: playerCam
       value: 
       objectReference: {fileID: 2262262614843121159}
+    - target: {fileID: 9087817145428922661, guid: b1329904fb6145741a53c69acc810964, type: 3}
+      propertyPath: moveLayer.m_Bits
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9171926464007502220, guid: b1329904fb6145741a53c69acc810964, type: 3}
       propertyPath: m_Name
       value: Player1Female2

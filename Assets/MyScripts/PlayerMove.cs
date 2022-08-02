@@ -21,6 +21,7 @@ public class PlayerMove : MonoBehaviour
     Vector3 currPos;
 
     public static bool canMove=true;
+    public LayerMask moveLayer;
 
     private void Awake()
     {
@@ -53,7 +54,7 @@ public class PlayerMove : MonoBehaviour
             if (canMove)
             {
                 ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                if (Physics.Raycast(ray, out hit))
+                if (Physics.Raycast(ray, out hit,300,moveLayer))
                 {
                     nav.destination = hit.point;
                 }
